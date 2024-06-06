@@ -34,7 +34,8 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("2016-4-13"),
                     Genre = "Comedy",
                     Price = 90.00M,
-                    
+                    Rating = 5.0,
+
                 },
                 new Movie
                 {
@@ -42,7 +43,7 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("2001-15-1"),
                     Genre = "Comedy",
                     Price = 100.00M,
-                    Rating = 5.0,
+                    Rating = 5,
                 },
                 new Movie
                 {
@@ -50,15 +51,15 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("2006-5-8"),
                     Genre = "action",
                     Price = 90.00M,
-                    Rating = 8.0,
-                }
+                    Rating = 8,
+                },
                 new Movie
                 {
                     Title = "Surya the soldier",
                     ReleaseDate = DateTime.Parse("2004-10-9"),
                     Genre = "Action",
                     Price = 200.00M,
-                    Rating = 8.0,
+                    Rating = 8,
 
                 }
             );
