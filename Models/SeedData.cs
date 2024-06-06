@@ -22,31 +22,44 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
-                    Title = "When Harry Met Sally",
-                    ReleaseDate = DateTime.Parse("1989-2-12"),
-                    Genre = "Romantic Comedy",
-                    Price = 7.99M
+                    Title = "spiderman",
+                    ReleaseDate = DateTime.Parse("2016-15-7"),
+                    Genre = "sci-fi",
+                    Price = 68.00M,
+                    Rating = 5.0,
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters ",
-                    ReleaseDate = DateTime.Parse("1984-3-13"),
+                    Title = "Dhamal ",
+                    ReleaseDate = DateTime.Parse("2016-4-13"),
                     Genre = "Comedy",
-                    Price = 8.99M
+                    Price = 90.00M,
+                    
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters 2",
-                    ReleaseDate = DateTime.Parse("1986-2-23"),
+                    Title = "Bad boys",
+                    ReleaseDate = DateTime.Parse("2001-15-1"),
                     Genre = "Comedy",
-                    Price = 9.99M
+                    Price = 100.00M,
+                    Rating = 5.0,
                 },
                 new Movie
                 {
-                    Title = "Rio Bravo",
-                    ReleaseDate = DateTime.Parse("1959-4-15"),
-                    Genre = "Western",
-                    Price = 3.99M
+                    Title = "Superman",
+                    ReleaseDate = DateTime.Parse("2006-5-8"),
+                    Genre = "action",
+                    Price = 90.00M,
+                    Rating = 8.0,
+                }
+                new Movie
+                {
+                    Title = "Surya the soldier",
+                    ReleaseDate = DateTime.Parse("2004-10-9"),
+                    Genre = "Action",
+                    Price = 200.00M,
+                    Rating = 8.0,
+
                 }
             );
             context.SaveChanges();
