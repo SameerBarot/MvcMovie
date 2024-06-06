@@ -26,7 +26,7 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("2016-15-7"),
                     Genre = "sci-fi",
                     Price = 68.00M,
-                    Rating = 5.0,
+                    Rating = 5,
                 },
                 new Movie
                 {
@@ -34,7 +34,7 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("2016-4-13"),
                     Genre = "Comedy",
                     Price = 90.00M,
-                    Rating = 5.0,
+                    Rating = 5,
 
                 },
                 new Movie
