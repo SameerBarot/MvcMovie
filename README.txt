@@ -175,6 +175,9 @@ Value types like `decimal`, `int`, `float`, and `DateTime` are inherently requir
 		add this in README file.
 		try to run webpage and check database and add 5 new movies data.
 		make a git repository Public.Make it visiblity private to public.So,everyone can see everyfile of webpage.
-
 		
-	
+		1528 UTC
+		edit seedate.cs,
+		add rating char.
+		found 10 error and tried to solve it and after make some changes i could solve that errors.
+		ran web page succesfully 
